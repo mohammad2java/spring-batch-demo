@@ -44,10 +44,10 @@ Architecture:
 
 
 ##Basic Concept:
-	1) Every Job when runs it create unique job instance in database (job-name+program-parameter).
-	2) same job can't be executed more than once if it is completed in previous execution.
-	3) if its fail in previous then it can run for complete the job .but when you run it second times 
-	it will not execute the successful step of previous execution it will start the execution from the step that was failed to completed.
-	4) every ItemReader/Writer/Processor having many implementation based on generic real time task.
-	
+			1) Every Job when runs it create unique job instance in database (job-name+program-parameter).
+			2) same job can't be executed more than once if it is completed in previous execution.
+			3) if its fail in previous then it can run for complete the job .but when you run it second times 
+			it will not execute the successful step of previous execution it will start the execution from the step that was failed to 			completed.
+			4) every ItemReader/Writer/Processor having many implementation based on generic real time task.
+			
 	
